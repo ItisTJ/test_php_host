@@ -11,10 +11,11 @@
     
     <div id="test_form">
         <div id="form_content">
-            <form method="post" action="form.php">
+            <form method="post" action="form.php" target="_parent">
                 <h1>Enter your details.</h1>
-                 
-                <input type="text" name="f_name" placeholder="First name">
+                
+                
+                <input type="text" name="f_name"  placeholder="First name">
                 <input type="text" name="l_name" placeholder="Last name">
 
                 <a href="fullname.php"><input type="submit" value="submit"></a>
